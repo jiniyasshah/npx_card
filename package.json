@@ -1,0 +1,34 @@
+{
+  "name": "jiniyas",
+  "version": "2.0.0",
+  "main": "index.js",
+  "bin": {
+    "jiniyas": "./card.js"
+  },
+  "scripts": {
+    "test": "node card.js",
+    "pub": "npm version major & npm publish"
+  },
+  "description": "A personal card for Jiniyas Shah (@jiniyasshah)",
+  "type": "module",
+  "dependencies": {
+    "boxen": "^8.0.1",
+    "chalk": "^5.3.0",
+    "clear": "^0.1.0",
+    "cli-spinners": "^3.2.0",
+    "inquirer": "^12.0.1",
+    "open": "^10.1.0",
+    "ora": "^8.1.1",
+    "request": "^2.88.2"
+  },
+  "keywords": [
+    "card",
+    "npm",
+    "npm card",
+    "npx",
+    "npx card",
+    "business card"
+  ],
+  "author": "Jiniyas Shah <jiniyasshahts@gmail.com> (https://jiniyasshah.com.np/)",
+  "license": "ISC"
+}
